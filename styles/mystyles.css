@@ -1,0 +1,70 @@
+/*! Lydia King 4/15/22 */
+
+body {
+    /*!background-color: black;*/
+    background-image: url(../images/trees.jpg);
+    opacity: 1;
+    color: black;
+}
+
+.section-color{
+    background-color: black;
+    opacity: 0.75;
+
+}
+
+#navigationbar{
+    background-color: black;
+    opacity: 0.75;
+}
+
+.footer{
+    background-color:black
+}
+
+/*! changes the on-screen boxes and buttons that hover above the photos */
+.boxes{
+    background-color:white;
+    opacity: 0.95
+}
+
+.buttons{
+    background-color:black;
+    color: white;
+    border-color:rgb(38, 38, 38)
+}
+
+/*! text edits */
+.text-white{
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.centeralign{
+    text-align:center;
+}
+
+.leftalign{
+    text-align:left;
+}
+
+.italics{
+    font-style:italic;
+}
+/*! Positioning: */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.imgformat{
+    object-fit: cover; 
+    height: 100%; 
+    width: 95%;
+}
